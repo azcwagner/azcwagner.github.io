@@ -1,0 +1,64 @@
+/********************************
+*            COLOR              *
+********************************/
+body {
+    background-color: #f1f1f3;
+}
+
+a {
+    text-decoration: none;
+    color: #a88924;
+}
+a:hover {
+    color: #ecb913;
+}
+
+.header {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    border-top: 1px solid black;
+}
+
+/********************************
+*           SPACING             *
+********************************/
+h5{
+    margin-bottom: 1px;
+}
+
+.container {
+    max-width: 900px; }
+
+.header {
+    margin-top: 2rem; 
+    margin-bottom: 1rem;
+}
+
+.footer {
+    padding-top: 2rem;
+    font-size: 1.2rem;  
+}
+
+ul.contact {
+    list-style: none;
+}
+
+ul.contact img {
+    display: block;
+    margin-top: .5em;
+    margin-left: auto;
+    /*padding-left: 0;*/
+    margin-right: auto;
+    height: 4rem;
+}
+
+li {
+    margin-bottom: 0rem;
+}
+
+ul {
+    margin-top: 0rem; 
+    list-style-position: inside;
+}
